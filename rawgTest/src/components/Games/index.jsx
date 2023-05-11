@@ -1,10 +1,13 @@
-export default (props)=>{
+export default () => {
     return(
-        <div>
-            <img src={props.url}/>
-            <p>
-                {props.desc}
-            </p>
+    <div className="wrapper">
+        <div className="Header">
+
+        <img />
+
+        <p></p>
+
         </div>
-    );
+    </div>
+    )
 }
