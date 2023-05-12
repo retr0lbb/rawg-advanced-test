@@ -1,0 +1,10 @@
+.jogos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    width: 100%;
+    background-color: #0d0d0d;
+    flex-shrink: none;
+    flex-wrap: nowrap;
+    place-items: center
+}
