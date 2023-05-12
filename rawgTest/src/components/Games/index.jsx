@@ -1,13 +1,14 @@
+import './index.css'
+
 export default () => {
     return(
     <div className="wrapper">
-        <div className="Header">
+        <div className="header">
 
         <img />
 
-        <p></p>
-
         </div>
+        <p>Test</p>
     </div>
     )
 }
