@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Games from '../Games';
-import './index.css'
-
+import './index.css';
 
 export default (props) =>{
 
@@ -28,8 +27,8 @@ export default (props) =>{
     const [pageCount ,setPageCount] = useState([]);
     const [page, setPage] = useState(1);
 
-    
-    const API_KEY = "9fe9df9f628245ccbef2da5be661f072"
+
+    const API_KEY = `${import.meta.env.VITE_TOKEN}`
     const URL_ENDPOINT = "https://api.rawg.io/api/games"
 
     const queryParams = {
